@@ -1,10 +1,12 @@
-[
-  {
-    "id": 1,
-    "name": "Korzinka Yunsubod"
-  },
-  {
-    "id": 2,
-    "name": "Korzinka Chilonzor"
-  }
-]
+{
+  "branches": [
+    {
+      "id": 1,
+      "name": "Korzinka Yunsubod"
+    },
+    {
+      "id": 2,
+      "name": "Korzinka Chilonzor"
+    }
+  ]
+}
