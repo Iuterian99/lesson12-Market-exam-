@@ -38,12 +38,15 @@ const server = http.createServer((req, res) => {
       const marketsId = req.url.split("/")[2];
 
       fs.readFile(
-        path.resolve(__dirname, "./data/marketBranches.json"),
+        path.resolve(__dirname, "./data/markets.json"),
         (err, data) => {
           if (err) throw err;
-          const foundMarkets = JSON.parse(data).filter(
-            (e) => e.id == marketsId
-          );
+          const foundMarkets = JSON.parse(data).filter((e) => {
+            if (e.id == marketsId) {
+              console.log(JSON.parse(data) + "," );
+              
+            }
+          });
           console.log(foundMarkets);
         }
       );
