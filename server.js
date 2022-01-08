@@ -111,7 +111,7 @@ const server = http.createServer((req, res) => {
       });
       req.on("end", () => {
         res.writeHead(200, { "Content-Type": "application/json" });
-        res.end("Successfully added new a Market Branch 🎉");
+        res.end("Successfully added a new Market Branch 🎉");
       });
     }
     if (req.url == "/newWorker") {
