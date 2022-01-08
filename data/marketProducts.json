@@ -1,12 +1,14 @@
 [
-  {
-    "id": 1,
-    "name": "Cola",
-    "count": 120
-  },
-  {
-    "id": 2,
-    "name": "Gosht",
-    "count": "120kg"
-  }
+  [
+    {
+      "id": 1,
+      "name": "Cola",
+      "count": 120
+    },
+    {
+      "id": 2,
+      "name": "Gosht",
+      "count": "120kg"
+    }
+  ]
 ]
